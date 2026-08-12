@@ -19,5 +19,19 @@
     "react-native-safe-area-context": "~5.6.0",
     "react-native-screens": "~4.16.0"
   },
-  "private": true
+  "private": true,
+  "description": "",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrunoOlivera123/aula-api-expo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/BrunoOlivera123/aula-api-expo/issues"
+  },
+  "homepage": "https://github.com/BrunoOlivera123/aula-api-expo#readme"
 }

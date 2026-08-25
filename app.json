@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "aula-api-expo",
-    "slug": "aula-api-expo",
+    "name": "aula-api-expo-des225-b",
+    "slug": "aula-api-expo-des225-b",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -24,6 +24,9 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-status-bar"
+    ]
   }
 }

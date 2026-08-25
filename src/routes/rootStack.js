@@ -10,12 +10,12 @@ const Stack = createNativeStackNavigator();
 
 export default function RootStack() {
   return (
-    <Stack.Navigator initialRouteName="login"
+    <Stack.Navigator
+      initialRouteName="login"
       screenOptions={
         {
           headerStyle: {
-            backgroundColor: '#4169E1',
-            fontWeight: 'bold',
+            backgroundColor: '#ffaaff'
           },
         }
       }
@@ -23,31 +23,30 @@ export default function RootStack() {
       <Stack.Screen
         name="login"
         component={Login}
-        options={{ title: 'Pagina de login' }}
+        options={{ title: 'Login' }}
       />
       <Stack.Screen
-        name="home"
+        name="myTab"
         component={MyTabs}
-        options={{
-          title: 'Pagina inicial',
-          headerShown: false
-          }
-        }
+        options={{ 
+          title: 'Home', 
+          headerShown: false 
+        }}
       />
       <Stack.Screen
         name="cadUsuario"
         component={CadUsuario}
-        options={{ title: 'Cadastro de usuario' }}
+        options={{ title: 'Cadastro de usuário' }}
       />
       <Stack.Screen
         name="recSenha"
         component={RecSenha}
         options={{
-          title: 'Recuperar senha',
+          title: 'My home',
           headerStyle: {
-            backgroundColor: '#ff2828',
+            backgroundColor: '#f4df1e',
           },
-          headerTintColor: '#ffffff',
+          headerTintColor: '#075000',
           headerTitleStyle: {
             fontWeight: 'bold',
           },

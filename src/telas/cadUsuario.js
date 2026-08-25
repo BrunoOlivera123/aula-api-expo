@@ -1,9 +1,10 @@
-import { View , Text }  from 'react-native';
 
-export default function CadUsuario () {
+import { View, Text } from 'react-native'; 
+
+export default function CadUsuario() {
     return (
-        <View> 
-            <Text> Cadastro de Usuario </Text>    
+        <View>
+            <Text>CadUsuario</Text>
         </View>
     );
 }

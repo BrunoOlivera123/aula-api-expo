@@ -12,8 +12,7 @@ export default function Login() {
             <Button screen="myTab">Acessar o sistema</Button>
             <Link screen="recSenha">Esqueci a senha</Link>
             <Pressable 
-                onPress={() => navigation.navigate('cadUsuario')}
-            >
+                onPress={() => navigation.navigate('cadUsuario')}>
                 <Text>Cadastrar usuário</Text>
             </Pressable>
         </View>

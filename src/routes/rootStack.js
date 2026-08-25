@@ -15,7 +15,7 @@ export default function RootStack() {
       screenOptions={
         {
           headerStyle: {
-            backgroundColor: '#ffaaff'
+            backgroundColor: '#3078ff'
           },
         }
       }

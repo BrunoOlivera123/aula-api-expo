@@ -9,7 +9,7 @@ const styles = StyleSheet.create({
         flex: 1, 
         padding: RFValue(10), 
         paddingTop: Constants.statusBarHeight, // evita de sobrepor a statusBar
-        // alignItems: 'center',
+        alignItems: 'center',
         // justifyContent: 'center', 
     }, 
     titulo: {
